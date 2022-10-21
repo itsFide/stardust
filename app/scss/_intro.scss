@@ -1,0 +1,131 @@
+.intro {
+    &__title{
+        display: flex;
+        flex-direction: column;
+        & span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 89px;
+        line-height: 108px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        }
+    }
+    width: 100%;
+    // .intro__inner
+
+    &__inner {
+        position: relative;
+        padding-top: 509px;
+    }
+
+    // .intro__info
+
+    &__info {
+    }
+
+    // .intro__talents
+
+    &__talents {
+    }
+    &__talents__line-1{
+
+        transition-timing-function: linear;
+
+    }
+    &__talents__line-2{
+        
+        transition-timing-function: linear;
+
+    }
+    &__talents__items {
+        position: absolute;
+        display: flex;
+        right: 25%;
+        top: -10%;
+        transform: matrix(0.94, -0.34, 0.34, 0.94, 0, 0);
+    }
+    &__talents__items-2 {
+        position: absolute;
+        display: flex;
+        right: 2%;
+        top: -10%;
+        transform: matrix(0.94, -0.34, 0.34, 0.94, 0, 0);
+    }
+    &__talents__line:first-child{
+        margin-right: 25px;
+    }
+}
+
+.talents {
+    &__swiper{
+        height: 120%;
+    }
+    &__swiper-2{
+        height: 120%;
+    }
+    // .talents__items
+
+    &__items__wrapper{
+        
+    }
+
+    // .talents__item
+
+    &__item {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 262px;
+        height: 353px !important;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    &__item__name{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 110.4%;
+        /* or 23px */
+
+        letter-spacing: 0.05em;
+        width: 50%;
+        color: #1B1B1B;
+
+    }
+    // .talents__profession
+
+    &__item__profession {
+        font-family: 'Montserrat';
+        font-style: normal;
+        margin-top: 6px;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 82.4%;
+        /* or 12px */
+
+        letter-spacing: 0.05em;
+
+        color: #1B1B1B;
+    }
+}
+@keyframes line1 {
+    0%{
+        transform: translateY(-10%);
+    }
+    50%{
+        transform: translateY(-50%);
+    }
+    
+    100%{
+        transform: translateY(-100%);
+    }
+}

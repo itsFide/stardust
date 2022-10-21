@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой шаблон</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Orbitron:wght@500&family=Reenie+Beanie&family=Roboto&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="main__body">
+  <header class="header">
+    <!-- Navbar -->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="#"> <img src="img/logo.svg" alt=""> </a> </div>
+          <div class="header__search">
+            
+              <input class="header__search__input" placeholder="Федор Бондарчук" type="search">
+              <button class="header__search__btn">Поиск</button>
+            
+          </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#">Главная</a></li>
+              <li class="menu__list-item"><a href="#">Новости</a></li>
+              <li class="menu__list-item"><a href="#">Клиенты агенства</a></li>
+              <li class="menu__list-item"><a href="#">Проекты</a></li>
+              <li class="menu__list-item"><a href="#">О нас</a></li>
+              <li class="menu__list-item"><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="header__social__list">
+            <div class="header__social__item">
+              <a href="#"><img src="img/header-social-img.svg" alt=""></a>
+              <a href="#"><img src="img/header-social-vk.svg" alt=""></a>
+              <a href="#"><img src="img/header-social-tg.svg" alt=""></a>
+            </div>
+          </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  
+    <section class="video-box intro">
+      <iframe src="https://www.youtube.com/embed/4dHuEKi6c7s?&loop=1&playlist=4dHuEKi6c7s&mute=1&autoplay=1" frameborder="0" allow="autoplay"></iframe>
+     
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__info">
+            <h1 class="intro__title primary-title"><span>Агентство</span> ТАЛАНТОВ</h1>
+            <p class="intro__descr">Сценаристы Режиссеры Актеры Операторы Писатели</p>
+          </div>
+          <div class="talents__items__wrapper">
+            <div class="intro__talents__items talents__swiper swiper">
+              <div class="intro__talents__line swiper-wrapper intro__talents__line-1">
+                <div style="background-image: url('img/talents-1.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Федор Дунаевский</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+                <div style="background-image: url('img/talents-2.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Александр Назаров</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+                <div style="background-image: url('img/talents-3.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Ольга Павловец</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+                <div style="background-image: url('img/talents-4.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Кузьма Стомаченко</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="intro__talents__items-2 swiper talents__swiper-2">
+              <div class="swiper-wrapper intro__talents__line intro__talents__line-2">
+                <div style="background-image: url('img/talents-1.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Федор Дунаевский</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+                <div style="background-image: url('img/talents-1.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Федор Дунаевский</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+                <div style="background-image: url('img/talents-1.jpg');" class="swiper-slide intro__talents__item talents__item">
+                  <h2 class="talents__item__name">Федор Дунаевский</h2>
+                  <p class="talents__item__profession">Актер</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="swiper test-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+      </div>
+      
+    </div>
+   -->
+  
+  <!-- Библиотеки, скрипты из CDN... -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- Cкрипты (удалить все, кроме scripts.min.js перед билдом) -->
+  <script src="./js/main.js"></script>
+  <script src="./js/scripts.min.js"></script>
+  
+</body>
+</html>
