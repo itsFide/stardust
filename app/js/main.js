@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         var $box = $('.video-box');
         var height = $box.height();
         var width = $box.width();
+        console.log(height)
         var new_height = width / 1.78;
         if (new_height > height) {
             $box.find('iframe').css({
@@ -28,29 +29,34 @@ document.addEventListener("DOMContentLoaded",()=>{
         });
       
       
-        const swiper = new Swiper('.talents__swiper', {
-        // Optional parameters
-        loop: true,
-        speed: 4000,
-        slidesPerView:3,
-        allowTouchMove:false,
-        direction: "vertical",
-        autoplay: {
-          
-            delay: 0,
-        },
+        
+        $(function() {
+            var blockTop = $('.clients').offset().top;
+            var CountUpFlag = 0;
+            var $window = $(window);
+            $window.on('load scroll', function() {
+                var top = $window.scrollTop();
+                var height = $window.height();
+                if (top + height >= blockTop && CountUpFlag == 0) {
+                    let particlesItem = document.querySelectorAll('.clients__info-particles-item')
+                    let x = 0;
+                    function changeImagesAuto() {
+                        x++;
+                        if (x == particlesItem.length) x = 0;
+                        particlesItem.forEach((e)=>{
+                            let rand1 = Math.floor(Math.random() * 1000)
+                        let rand2 = Math.floor(Math.random() * 1000)
+                        e.style.transform = `translate(${rand1}%,${rand2}%)`;
+                        })
+                        
+                    }
+                    
+                    setInterval(changeImagesAuto, 2000);
+                    CountUpFlag = 1;
+                }
+            });
+            
         });
-        const swiper2 = new Swiper('.talents__swiper-2', {
-            // Optional parameters
-            loop: true,
-            speed: 4000,
-            slidesPerView:3,
-            allowTouchMove:false,
-            direction: "vertical",
-            autoplay: {
-                reverseDirection: true,
-                delay: 0,
-            },
-        });
-    
+        
 })
+
