@@ -86,7 +86,9 @@
     }
 
     // .projects__items-wrapper
-
+    &__items-wrapper-mobile{
+        display: none;
+    }
     &__items-wrapper {
         position: absolute;
         right: 2%;
@@ -126,7 +128,7 @@
         height: 338px !important;
         margin-bottom: 30px;
         display: flex;
-        
+        border-radius: 10px;
         & img{
             border-radius: 5px;
         }
