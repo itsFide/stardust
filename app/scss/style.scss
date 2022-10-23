@@ -94,6 +94,12 @@ h1, h2, h3, h4, h5, h6, p {
 	.intro__talents__items-2{
 		right: 0%;
 	}
+	.about__info-header{
+		flex-direction: column;
+	}
+	.about__info-header-btn-wrapper{
+		margin: 10px 0;
+	}
 }
 @media screen and (max-width: 991.98px) {
 	.swiper-wrapper{
@@ -103,10 +109,128 @@ h1, h2, h3, h4, h5, h6, p {
 		width: 100%;
 		height: 233px !important;
 	}
+	.intro__inner{
+		padding-top: 325px;
+	}
+	.about__img{
+		display: none;
+	}
+	.about__inner{
+		padding: 20px;
+	}
 }
 @media screen and (max-width: 767.98px) {
 	.header__social__list{
 		margin-left: 0;
+	}
+	.intro__inner{
+		padding-top: 225px;
+	}
+	.intro__talents__items{
+		right: 38%;
+	}
+	.intro__talents__items-2{
+		right: 4%;
+	}
+	.intro__title{
+		font-size: 55px;
+		& span{
+			font-size: 55px;
+			line-height: 20px;
+		}
+	}
+	.about__info-header{
+		flex-direction: row;
+	}
+	.about__info-header-img{
+		width: 28%;
+		& img{
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 690px){
+	.intro__talents__items{
+		right: 28%;
+	}
+	.intro__talents__items-2{
+		right: -10%;
+	}
+}
+@media screen and (max-width: 620px){
+	.intro__talents__items{
+		right: 33%;
+	}
+	.intro__talents__items-2{
+		right: -10%;
+	}
+}
+@media screen and (max-width: 560px){
+	.intro__talents__items{
+		right: 33%;
+	}
+	.intro__talents__items-2{
+		right: -17%;
+	}
+	.about__info-header{
+		flex-direction: column;
+	}
+	.about__info-descr p{
+		text-align: center;
+	}
+	.about__info-header-btn{
+		padding: 15px 25px;
+	}
+}
+@media screen and (max-width: 485px){
+	.talents__swiper,.talents__swiper-2{
+		width: 60%;
+	}
+	.intro__talents__items{
+		right: 25%;
+	}
+	.intro__talents__items-2{
+		right: -27%;
+	}
+	.intro__inner{
+		padding-top: 125px;
+	}
+	.intro__title{
+		font-size: 35px;
+		display: block;
+		width: 50%;
+		line-height: 40px;
+	}
+	nav .navbar .logo a{
+		justify-content: left;
+	}
+	.intro__descr{
+		font-size: 16px;
+	}
+	.intro__title span{
+		font-weight: 700;
+		font-size: 35px;
+	}
+	.talents__item{
+		padding: 5px;
+	}
+	.talents__item__name{
+		font-size: 16px;
+	}
+	.about__info-descr p{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 410px){
+
+	.intro__talents__items{
+		right: 17%;
+	}
+	.intro__talents__items-2{
+		right: -35%;
+	}
+	.talents__item__name{
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 400px) {
