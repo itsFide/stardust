@@ -39,6 +39,30 @@
               <li class="menu__list-item"><a href="#">Контакты</a></li>
             </ul>
           </div>
+          <div class="mobile__menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#">Главная</a></li>
+              <li class="menu__list-item"><a href="#">Новости</a></li>
+              <li class="menu__list-item"><a href="#">Клиенты агенства</a></li>
+              <li class="menu__list-item"><a href="#">Проекты</a></li>
+              <li class="menu__list-item"><a href="#">О нас</a></li>
+              <li class="menu__list-item"><a href="#">Контакты</a></li>
+            </ul>
+            <div class="header__search">
+            
+              <input class="header__search__input" placeholder="Федор Бондарчук" type="search">
+              <button class="header__search__btn">Поиск</button>
+            
+            </div>
+            <div class="header__social__list">
+              <div class="header__social__item">
+                <a href="#"><img src="img/header-social-img.svg" alt=""></a>
+                <a href="#"><img src="img/header-social-vk.svg" alt=""></a>
+                <a href="#"><img src="img/header-social-tg.svg" alt=""></a>
+              </div>
+            </div>
+            
+          </div>
           <div class="header__social__list">
             <div class="header__social__item">
               <a href="#"><img src="img/header-social-img.svg" alt=""></a>
@@ -53,7 +77,6 @@
       </div>
     </nav>
   </header>
-  
   <section class="video-box intro">
     <iframe src="https://www.youtube.com/embed/4dHuEKi6c7s?&loop=1&playlist=4dHuEKi6c7s&mute=1&autoplay=1" frameborder="0" allow="autoplay"></iframe>
     
@@ -105,7 +128,7 @@
       </div>
     </div>
   </section>
-  <section class="about">
+  <!-- <section class="about">
     <div class="container">
       <div class="about__inner">
         <div class="about__img">
@@ -221,6 +244,12 @@
     <div class="container">
       <div class="projects__inner">
         <div class="projects__info">
+          <div class="projects__info-img_camera">
+            <img src="img/bi_camera-reels.svg" alt="">
+          </div>
+          <div class="projects__info-img_particles">
+            <img src="img/projects-particles.svg" alt="">
+          </div>
           <div class="projects__info-img">
             <img src="img/projects-logo.png" alt="">
           </div>
@@ -247,32 +276,32 @@
           <div class="projects__items-line-2 swiper">
             <div class="projects__items-swiper-wrapper swiper-wrapper">
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-1.jpg" alt="">
+                <img src="img/projects-items-5.jpg" alt="">
               </div>
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-2.jpg" alt="">
+                <img src="img/projects-items-6.jpg" alt="">
               </div>
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-3.jpg" alt="">
+                <img src="img/projects-items-7.jpg" alt="">
               </div>
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-4.jpg" alt="">
+                <img src="img/projects-items-8.jpg" alt="">
               </div>
             </div>
           </div>
           <div class="projects__items-line-3 swiper">
             <div class="projects__items-swiper-wrapper swiper-wrapper">
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-1.jpg" alt="">
+                <img src="img/projects-items-9.jpg" alt="">
               </div>
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-2.jpg" alt="">
+                <img src="img/projects-items-10.jpg" alt="">
               </div>
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-3.jpg" alt="">
+                <img src="img/projects-items-11.jpg" alt="">
               </div>
               <div class="swiper-slide projects__item">
-                <img src="img/projects-items-4.jpg" alt="">
+                <img src="img/projects-items-12.jpg" alt="">
               </div>
             </div>
           </div>
@@ -280,13 +309,152 @@
       </div>
     </div>
   </section>
+  <section class="news">
+    <div class="container">
+      <div class="news__inner">
+        <h2 class="news__title">Новости stardust</h2>
+        <div class="news__items">
+          <article style="background-image: url('img/news-item-1.jpg');" class="news__item news__item_big">
+            <a class="news__item-title-link" href=""><h3 class="news__item-title">Фильм «Непослушник» режиссера Агентства StarDust завоевал 3 награды из 5 на фестивале «Виват кино России!»</h3></a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+              <a href=""><img src="img/news-item-2.jpg" alt=""></a>
+            </div>
+            <a href=""><h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3></a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+              <a href="">
+                <img src="img/news-item-3.jpg" alt="">
+              </a>
+            </div>
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Татьяна Беличенко выступила автором одной из колонок на сайте газеты Известия</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+                <a class="news__item-title-link" href="">
+                  <img src="img/news-item-2.jpg" alt="">
+                </a>
+              </div>
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+                <a href="">
+                  <img src="img/news-item-4.jpg" alt="">
+                </a>
+              </div>
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Татьяна Беличенко стала гостем программы Давида Шнейдерова «Синемания»</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-5.jpg');" class="news__item news__item_big">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Татьяна Беличенко стала гостем программы Давида Шнейдерова «Синемания»</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-6.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-7.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-8.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-9.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+        </div>
+        <div class="news__btn-more">
+          <button>Загрузить ещё</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__columns">
+          <div class="footer__col footer__col-about">
+            <div class="footer__col-about-logo">
+              <img src="img/footer-logo.png" alt="">
+            </div>
+            <h3 class="footer__col-about-title">«Агентство Стардаст» </h3>
+            <p class="footer__col-about-descr">Работает в киноиндустрии с 2007 года и является уникальной компанией в российском киносообществе.</p>
+          </div>
+          <div class="footer__col-company footer__col">
+            <h2 class="footer__col-title">Компания</h2>
+            <ul class="footer__company-list footer__col-list">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Проекты</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Как нас найти</a></li>
+            </ul>
+          </div>
+          <div class="footer__col-clients footer__col">
+            <h2 class="footer__col-title">Клиенты</h2>
+            <ul class="footer__clients-list footer__col-list">
+              <li><a href="#">Сценаристы</a></li>
+              <li><a href="#">Режиссеры</a></li>
+              <li><a href="#">Актеры</a></li>
+              <li><a href="#">Операторы</a></li>
+              <li><a href="#">Писатели</a></li>
+            </ul>
+          </div>
+          <div class="footer__col-contacts footer__col">
+            <h2 class="footer__col-title">Контакты</h2>
+            <ul class="footer__contacts-list footer__col-list">
+              <li><a href="tel:+79933699439"><img src="img/footer-cal.svg" alt="">+7 (993) 369-94-39</a></li>
+              <li><a class="footer__col-list-mail" href="mailto:info@stardust-agency.ru"><img src="img/footer-mail.svg" alt="">info@stardust-agency.ru</a></li>
+              <li><a href="#"><img src="img/footer-geo.svg" alt="">119072, г. Москва, БЦ «Красный Октябрь», Берсеневская набережная, д. 8, стр. 1</a></li>
+              <li><a href="#"><img src="img/footer-user-legacy.svg" alt="">Пользовательское соглашение с агентами</a></li>
+              <li><a href="#"><img src="img/footer-consert.svg" alt="">Согласие на обработку персональных данных</a></li>
+              <li><a href="#"><img src="img/footer-data-legacy.svg" alt="">Положение о персональных данных</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>Copyright ООО Агенство Стардаст 2022 Все права защищены.</p>
+          <span>Полное или частичное копирование материалов запрещено.
+            Использование материалов сайта возможно только с письменного согласования правообладателей.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer> -->
   <!-- Библиотеки, скрипты из CDN... -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <!-- Cкрипты (удалить все, кроме scripts.min.js перед билдом) -->
-  <!-- <script src="./js/sliders.js"></script>
-  <script src="./js/main.js"></script> -->
+  <script src="./js/sliders.js"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/main.js"></script>
   <script src="./js/scripts.min.js"></script>
   
 </body>

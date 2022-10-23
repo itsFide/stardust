@@ -10,6 +10,20 @@ const swiper = new Swiper('.talents__swiper', {
       
         delay: 0,
     },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 5,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 6,
+        },
+        // when window width is >= 640px
+        991: {
+          slidesPerView: 3,
+        }
+      }
     });
     const swiper2 = new Swiper('.talents__swiper-2', {
         // Optional parameters
@@ -22,6 +36,20 @@ const swiper = new Swiper('.talents__swiper', {
             reverseDirection: true,
             delay: 0,
         },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 5,
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 6,
+            },
+            // when window width is >= 640px
+            991: {
+              slidesPerView: 3,
+            }
+          }
     });
     
     const projects1 = new Swiper('.projects__items-line-1', {

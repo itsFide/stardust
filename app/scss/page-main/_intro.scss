@@ -1,8 +1,21 @@
 .intro {
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(32, 32, 32, 0.44) 0%, rgba(32, 32, 32, 0.12) 45.56%, #202020 96.8%);
+        z-index: 2;
+        left: 0;
+        bottom: 0;
+    }
     &__title{
         display: flex;
+        position: relative;
         flex-direction: column;
+        z-index: 10;
         & span{
+        z-index: 10;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 900;
@@ -64,9 +77,9 @@
         font-weight: 300;
         font-size: 20px;
         line-height: 24px;
-
+        z-index: 10;
         color: #FFFFFF;
-
+        position: relative;
     }
 }
 

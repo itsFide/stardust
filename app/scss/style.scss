@@ -4,11 +4,13 @@
 @import "global";
 @import "navbar";
 @import "vars"; 
-@import "intro"; 
+@import "page-main/intro"; 
 @import "video-bg"; 
-@import "about"; 
-@import "clients"; 
-@import "projects"; 
+@import "page-main/about"; 
+@import "page-main/clients"; 
+@import "page-main/projects"; 
+@import "page-main/news"; 
+@import "footer"; 
 
 
 
@@ -62,3 +64,53 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
+@media screen and (max-width: 1346px) {
+	nav .navbar{
+		flex-direction: column;
+	}
+	.header__search{
+		margin-left: 0;
+		margin-bottom: 15px;
+		
+	}
+	nav .navbar .logo img{
+		width: 50%;
+	}
+	nav .navbar .logo a{
+		display: flex;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	nav .navbar .menu__list-item{
+		margin-right: 15px;
+	}
+	nav .navbar .menu__list{
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+	.intro__talents__items{
+		right: 32%;
+	}
+	.intro__talents__items-2{
+		right: 0%;
+	}
+}
+@media screen and (max-width: 991.98px) {
+	.swiper-wrapper{
+		width: 71%;
+	}
+	.talents__item{
+		width: 100%;
+		height: 233px !important;
+	}
+}
+@media screen and (max-width: 767.98px) {
+	.header__social__list{
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 400px) {
+	.header__search__input{
+		padding: 11px 7px;
+	}
+}
