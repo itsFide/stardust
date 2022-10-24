@@ -163,7 +163,7 @@ const swiper = new Swiper('.talents__swiper', {
         breakpoints: {
             // when window width is >= 320px
             320: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             // when window width is >= 480px
             480: {
@@ -190,7 +190,7 @@ const swiper = new Swiper('.talents__swiper', {
         breakpoints: {
             // when window width is >= 320px
             320: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             // when window width is >= 480px
             480: {
@@ -217,7 +217,7 @@ const swiper = new Swiper('.talents__swiper', {
         breakpoints: {
             // when window width is >= 320px
             320: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             // when window width is >= 480px
             480: {
