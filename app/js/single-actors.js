@@ -14,10 +14,13 @@ const singleActors = new Swiper('.single-actors__images', {
         // when window width is >= 320px
         320: {
           slidesPerView: 4,
+          speed: 2000,
         },
         // when window width is >= 480px
         480: {
           slidesPerView: 2,
+          speed: 3000,
+          
         },
         // when window width is >= 640px
         991: {
