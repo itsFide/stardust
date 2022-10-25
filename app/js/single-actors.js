@@ -25,3 +25,30 @@ const singleActors = new Swiper('.single-actors__images', {
         }
       }
 });
+$(function() {
+    var blockTop = $('.single-actors').offset().top;
+    var CountUpFlag = 0;
+    var $window = $(window);
+    $window.on('load scroll', function() {
+        var top = $window.scrollTop();
+        var height = $window.height();
+        if (top + height >= blockTop && CountUpFlag == 0) {
+            let particlesItem = document.querySelectorAll('.single-actors__img-particles')
+            let x = 0;
+            function changeImagesAuto() {
+                x++;
+                if (x == particlesItem.length) x = 0;
+                particlesItem.forEach((e)=>{
+                    let rand1 = Math.floor(Math.random() * 1000)
+                let rand2 = Math.floor(Math.random() * 1000)
+                e.style.transform = `translate(${rand1}%,${rand2}%)`;
+                })
+                
+            }
+            
+            setInterval(changeImagesAuto, 2000);
+            CountUpFlag = 1;
+        }
+    });
+    
+});
