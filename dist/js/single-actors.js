@@ -20,6 +20,7 @@ const singleActors = new Swiper('.single-actors__images', {
         480: {
           slidesPerView: 2,
           speed: 3000,
+          
         },
         // when window width is >= 640px
         991: {

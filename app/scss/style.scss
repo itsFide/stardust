@@ -13,6 +13,8 @@
 @import "page-news/news-page"; 
 @import "page-actors/page-actors"; 
 @import "page-single-actors/single-actors"; 
+@import "page-screenwriters/page-screenwriters"; 
+@import "page-about/page-about"; 
 @import "footer"; 
 
 
@@ -197,6 +199,31 @@ h1, h2, h3, h4, h5, h6, p {
 	.page-single-actors .single-actors__info{
 		align-items: start;
 	}
+	.page-screenwriters .screenwriters__inner{
+		padding-left: 0;
+	}
+	.page-screenwriters .screenwriters__item{
+		margin-right: 110px;
+	}
+	.page-screenwriters .screenwriters__items{
+		justify-content: center;
+	}
+	.page-about .about-us__info{
+		width: 100%;
+	}
+	.page-about .start .primary-title{
+		padding-left: 0;
+	}
+	.page-about .about-us__items{
+		width: 100%;
+		justify-content: center;
+	}
+	.page-about .about-us__item{
+		margin-right: 25px;
+		&:nth-child(2n){
+			margin-right: 0;
+		}
+	}
 }
 @media screen and (max-width: 991.98px) {
 	.intro__talents__line-1,.intro__talents__line-2{
@@ -336,6 +363,25 @@ h1, h2, h3, h4, h5, h6, p {
 		width: 50%;
 		margin-bottom: 20px;
 	}
+	.page-screenwriters .start .primary-title{
+		padding-left: 0;
+	}
+	.page-screenwriters .screenwriters__item{
+		margin-right: 31px;
+	}
+	.page-about .about-us__info{
+		flex-direction: column;
+	}
+	.about-us__info-descr{
+		position: relative;
+		z-index: 2;
+		margin-top: 15px;
+	}
+	.page-about .about-us__project-slider{
+		height: 134%;
+		top: -26%;
+	}
+	
 }
 @media screen and (max-width: 767.98px) {
 	.header__social__list{
@@ -453,6 +499,38 @@ h1, h2, h3, h4, h5, h6, p {
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
+	.page-screenwriters .screenwriters__items{
+		flex-direction: column;
+
+	}
+	.page-screenwriters .screenwriters__item{
+		margin-right: 0;
+	}
+	.page-about .about-us__item-img{
+		width: 220px;
+		height: 286px;
+	}
+	.page-about .about-us__item-title{
+		font-size: 18px;
+	}
+	.page-about .about-us__item-specialization{
+		font-size: 14px;
+	}
+	.page-about .about-us__item-mail a{
+		font-size: 10px;
+	}
+	
+	.page-about .about-us__info-title{
+		font-size: 32px;
+	}
+	.page-about .about-us__info-descr p{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.page-about .about-us__img{
+		top: 10%;
+		width: 20%;
+	}
 }
 @media screen and (max-width: 690px){
 	.intro__talents__items{
@@ -541,6 +619,28 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.page-single-actors .start .primary-title{
 		padding-left: 0;
+	}
+	.page-about .about-us__project-slider{
+		height: 500px;
+		transform: rotate(312deg);
+    	right: -5%;
+		top: -34%;
+	}
+	.page-about .about-us__item{
+		margin-right: 0 !important;
+	}
+	.page-about .partners{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.page-about .about-us__item{
+		margin-bottom: 25px;
+	}
+	.page-about .about-us__info{
+		padding: 20px;
+	}
+	.page-about .about-us__items{
+		margin-top: 20px;
 	}
 }
 @media screen and (max-width: 485px){
@@ -664,6 +764,10 @@ h1, h2, h3, h4, h5, h6, p {
 	.page-single-actors .single-actors__images-item{
 		width: 50% !important;
 	}
+	.page-screenwriters .start .primary-title{
+		font-size: 34px;
+	}
+	
 }
 @media screen and (max-width: 410px){
 
