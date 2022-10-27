@@ -41,7 +41,7 @@
     &__item-last-line{
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: flex-end;
         padding: 20px;
         position: relative;
         background-size: cover;
@@ -106,7 +106,7 @@
             flex-direction: column;
             width: 579px;
             height: 379px;
-            justify-content: end;
+            justify-content: flex-end;
             padding: 19px 26px;
             border-radius: 5px;
             position: relative;

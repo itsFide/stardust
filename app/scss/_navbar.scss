@@ -94,10 +94,13 @@ nav {
             font-size: 13px;
             line-height: 16px;
             /* identical to box height */
-
+            transition: all 0.3s;
             letter-spacing: -0.01em;
 
             color: #FFFFFF;
+            &:hover{
+              font-weight: 600;
+            }
           }
           &:last-child {
             margin-right: 0;

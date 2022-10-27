@@ -4,7 +4,10 @@ function tabs(headerSelector, tabSelector, contentSelector, activeClass, display
           content = document.querySelectorAll(contentSelector)
     function hideTabContent() {
         content.forEach(item => {
+            item.style.opacity = '0'
+            
             item.style.display = 'none'
+            item.classList.remove('tab-active')
         });
         tab.forEach(item => {
             item.classList.remove(activeClass)
@@ -12,6 +15,10 @@ function tabs(headerSelector, tabSelector, contentSelector, activeClass, display
     }
     function showTabContent(i = 0) {
        content[i].style.display = display
+       setTimeout(()=>{
+        content[i].classList.add('tab-active')
+        content[i].style.opacity = '1'
+       },100)
        tab[i].classList.add(activeClass)
     }
     hideTabContent()
