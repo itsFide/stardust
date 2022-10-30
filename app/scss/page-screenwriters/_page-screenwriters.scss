@@ -23,6 +23,13 @@
         &__item {
             margin-right: 193px;
             margin-bottom: 58px;
+            padding: 5px;
+            cursor: pointer;
+            transition: all .3s;
+            &:hover{
+                box-shadow: 0 5px 15px #907A5E;
+                border-radius: 5px;
+            }
             &:nth-child(3n){
                 margin-right: 0;
             }

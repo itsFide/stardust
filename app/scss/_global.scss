@@ -9,7 +9,7 @@
 	letter-spacing: 0.05em;
 }
 .primary-btn {
-	background: linear-gradient(93.77deg, #927C60 13.28%, #775933 175.32%);
+	background:#927C60 13.28%;
 	border: none;
 	border-radius: 5px;
 	font-family: 'Montserrat';
@@ -20,5 +20,8 @@
 	padding: 22px 52px;
 	cursor: pointer;
 	color: #FFFFFF;
-
+	transition: all 0.3s;
+	&:hover{
+		background: #63533f;
+	}
 }

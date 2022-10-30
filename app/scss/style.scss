@@ -15,6 +15,7 @@
 @import "page-single-actors/single-actors"; 
 @import "page-screenwriters/page-screenwriters"; 
 @import "page-projects/page-projects"; 
+@import "page-about/page-about"; 
 @import "page-contacts/page-contacts"; 
 @import "footer"; 
 
@@ -586,6 +587,19 @@ h1, h2, h3, h4, h5, h6, p {
 		top: 10%;
 		width: 20%;
 	}
+	.page-about .about-us__item-last{
+		padding-top: 0;
+	}
+	.page-about .about-us__item-last-title{
+		font-size: 25px;
+		margin-top: 15px;
+	}
+	.page-about .about-us__item-last-descr{
+		font-size: 18px;
+	}
+	img.about-us__item-last-img{
+		width: 20%;
+	}
 }
 @media screen and (max-width: 690px){
 	.intro__talents__items{
@@ -882,6 +896,9 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.page-contacts .start .primary-title{
 		font-size: 31px;
+	}
+	.page-about .about-us__item-last-btn{
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 410px){

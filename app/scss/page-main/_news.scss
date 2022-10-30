@@ -94,8 +94,11 @@
         width: 273px;
         height: 379px;
         border-radius: 5px;
-        
-        
+        transition: all .3s;
+        padding: 10px;
+        &:hover{
+            box-shadow: 0 10px 30px #907A5E;
+        }
         // .news__item_big
 
         &_big {
@@ -218,6 +221,13 @@
             background-color: transparent;
             cursor: pointer;
             color: #907A5E;
+            transition: all .3s;
+            &:hover{
+                background: #907A5E;
+                color: #fff;
+                border: 2px solid #fff;
+                box-shadow: 0 0 10px #907A5E;
+            }
         }
     }
 }
