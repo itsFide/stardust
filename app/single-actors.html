@@ -12,7 +12,9 @@
   <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+  />
+
+  <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -214,16 +216,16 @@
     <div class="single-actors__images swiper">
         <div class="single-actors__images-wrapper swiper-wrapper">
             <div class="swiper-slide single-actors__images-item">
-                <img src="img/actor-single-1.jpg" alt="">
+                <a href="img/actor-single-1.jpg" data-lightbox="img/actor-single-1.jpg" ><img src="img/actor-single-1.jpg" alt=""></a>
             </div>
             <div class="swiper-slide single-actors__images-item">
-                <img src="img/actor-single-2.jpg" alt="">
+                <a href="img/actor-single-2.jpg" data-lightbox="img/actor-single-2.jpg"><img src="img/actor-single-2.jpg" alt=""></a>
             </div>
             <div class="swiper-slide single-actors__images-item">
-                <img src="img/actor-single-3.jpg" alt="">
+                <a href="img/actor-single-3.jpg" data-lightbox="img/actor-single-3.jpg"><img src="img/actor-single-3.jpg" alt=""></a>
             </div>
             <div class="swiper-slide single-actors__images-item">
-                <img src="img/actor-single-4.jpg" alt="">
+                <a href="img/actor-single-4.jpg" data-lightbox="img/actor-single-4.jpg"><img src="img/actor-single-4.jpg" alt=""></a>
             </div>
         </div>
     </div>
@@ -285,6 +287,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <!-- Cкрипты (удалить все, кроме scripts.min.js перед билдом) -->
+  <script src="./js/lightbox.js"></script>
   <script src="./js/navbar.js"></script>
   <script src="./js/single-actors.js"></script>
   <script src="./js/main.js"></script>

@@ -4,7 +4,7 @@ const singleActors = new Swiper('.single-actors__images', {
     speed: 6000,
     spaceBetween: 0,
     slidesPerView:3,
-    allowTouchMove:false,
+    // allowTouchMove:false,
     autoplay: {
         reverseDirection: false,
         delay: 0,

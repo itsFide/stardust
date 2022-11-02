@@ -1,5 +1,7 @@
 .page-news{
-    
+    .news{
+        padding-top: 15px;
+    }
     & .news__item   {
         &:nth-child(11){
             grid-column: 1/3;

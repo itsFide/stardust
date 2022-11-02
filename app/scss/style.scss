@@ -139,7 +139,11 @@ h1, h2, h3, h4, h5, h6, p {
 		margin: 10px 0;
 	}
 	.about__inner{
-		padding: 0 73px 20px 0;
+		padding: 0 20px 25px 0;
+	}
+	.about__info-descr p{
+		text-align: center;
+		margin-top: 15px;
 	}
 	.clients__inner{
 		flex-direction: column;
@@ -351,6 +355,9 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.footer__copyright span{
 		width: 50%;
+	}
+	.footer__col-about-logo img{
+		margin-left: -15px;
 	}
 	.news__items{
 		justify-content: center;
