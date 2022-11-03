@@ -225,13 +225,17 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.page-about .about-us__items{
 		width: 100%;
-		justify-content: center;
+		justify-content: space-between;
 	}
 	.page-about .about-us__item{
 		margin-right: 25px;
-		&:nth-child(2n){
+		width: 285px;
+		&:nth-child(3n){
 			margin-right: 0;
 		}
+	}
+	.page-about .about-us__item-mail a{
+		font-size: 11px;
 	}
 	.tabs__content-project:nth-child(3n){
 		margin-right: 0px;
@@ -269,6 +273,27 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.page-contacts .start .primary-title{
 		padding-left: 0;
+	}
+	.page-actors .primary-title{
+		padding-left: 0 !important;
+	}
+	.page-actors .actors__items{
+		padding-left: 0;
+		justify-content: space-between;
+	}
+	.page-actors .actor__item{
+		width: 291px;
+		height: 375px;
+	}
+	nav .navbar .menu__list-item.has-child .dropdown-menu.active{
+		background-color: transparent;
+		// padding-left: 15px;
+		// background-color: #000;
+		position: static;
+		margin-top: 15px;
+		& li{
+			text-align: center;
+		}
 	}
 }
 @media screen and (max-width: 991.98px) {
@@ -431,6 +456,11 @@ h1, h2, h3, h4, h5, h6, p {
 		position: relative;
 		z-index: 2;
 		margin-top: 15px;
+	}
+	.page-about .about-us__item{
+		&:nth-child(2n){
+			margin-right: 0;
+		}
 	}
 	.page-about .about-us__project-slider{
 		height: 134%;
@@ -636,6 +666,13 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.tabs__content-project,.tabs__content-project:nth-child(2n){
 		margin-right: 0px;
+	}
+	.page-about .about-us__items{
+		flex-direction: column;
+		align-items: center;
+	}
+	.page-about .about-us__item{
+		margin-right: 0 !important;
 	}
 }
 @media screen and (max-width: 560px){
@@ -852,6 +889,9 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.page-actors .actor__item-data{
 		margin-top: 10px;
+	}
+	.page-actors .actors{
+		padding-bottom: 70px;
 	}
 	.page-single-actors .single-actors__agent-btn{
 		font-size: 16px;

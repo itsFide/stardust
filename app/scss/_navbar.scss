@@ -62,7 +62,7 @@
 }
 nav {
   background-color: rgba(0, 0, 0, 0.59);
-  overflow: hidden;
+  // overflow: hidden;
   &.fixed__nav {
     background: green;
     position: fixed;
@@ -87,6 +87,22 @@ nav {
         &-item {
           margin-right: 35px;
           position: relative;
+          &.has-child .dropdown-menu{
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            display: none;
+            border-radius: 10px;
+            background-color: #907a5e99;
+            & li{
+              margin-bottom: 15px;
+            }
+            &.active{
+              display: block;
+            }
+          }
           & a{
             font-family: 'Montserrat';
             font-style: normal;
@@ -219,7 +235,7 @@ nav {
       position: absolute;
       width: 100%;
       height: 0%;
-      overflow: hidden;
+      overflow: scroll;
       z-index: 1000;
       left: 0;
       transition: all 0.4s;

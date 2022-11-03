@@ -1,5 +1,11 @@
-// Мобильное меню бургер
-function burgerMenu() {
+
+// window.addEventListener('scroll', fixedNav)
+
+
+// dropdown
+window.onload = () =>{
+  // Мобильное меню бургер
+  function burgerMenu() {
     let burger = document.querySelector('.burger')
     let menu = document.querySelector('.mobile__menu')
     let header = document.querySelector('.header')
@@ -26,12 +32,12 @@ function burgerMenu() {
           burger.classList.remove('active-burger')
       }
     })
-}
-burgerMenu()
+  }
+  burgerMenu()
 
 
-// Вызываем эту функцию, если нам нужно зафиксировать меню при скролле.
-function fixedNav() {
+  // Вызываем эту функцию, если нам нужно зафиксировать меню при скролле.
+  function fixedNav() {
   const nav = document.querySelector('nav')
 
   // тут указываем в пикселях, сколько нужно проскроллить что бы наше меню стало фиксированным
@@ -41,5 +47,18 @@ function fixedNav() {
   } else {
     nav.classList.remove('fixed__nav')
   }
+  }
+
+
+
+  let dropDownTrigger = document.querySelectorAll('.has-child');
+  dropDownTrigger.forEach((e)=>{
+    let dropDownLink  = e.querySelector('a')
+    dropDownLink.addEventListener('click',(event)=>{
+      event.preventDefault()
+      let dropdown = e.querySelector('.dropdown-menu') 
+      dropdown.classList.toggle('active')
+    })
+  })
 }
-// window.addEventListener('scroll', fixedNav)
+
