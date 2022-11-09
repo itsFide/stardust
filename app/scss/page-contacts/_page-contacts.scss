@@ -1,0 +1,142 @@
+.page-contacts{
+    .contacts {
+        padding-top: 41px;
+        padding-bottom: 67px;
+        
+		// .contacts__inner
+
+		&__inner {
+            display: flex;
+            padding-left: 66px;
+            padding-right: 72px;
+            height: 100%;
+		}
+
+		// .contacts__info
+
+		&__info {
+            border-top: 1px solid #AFAFAF;
+            border-left: 1px solid #AFAFAF;
+            border-bottom: 1px solid #AFAFAF;
+            border-radius: 20px 0 0 20px;
+            height: auto;
+            padding: 68px 66px 68px 53px;
+		}
+
+		// .contacts__info-title
+
+		&__info-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 22px;
+            /* or 94% */
+
+            letter-spacing: -0.01em;
+            margin-bottom: 20px;
+            color: #907A5E;
+		}
+
+		// .contacts__info-address
+
+		&__info-address {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 22px;
+            /* or 118% */
+
+            letter-spacing: -0.01em;
+            color: #3C3C3C;
+            & strong{
+                font-weight: 900;
+            }
+		}
+
+		// .contacts__info-data
+
+		&__info-data {
+            margin-top: 86px;
+            background: rgba(83, 117, 238, 0.06);
+            border: 1px solid #D2D2D2;
+            border-radius: 22px;
+            width: 430px;
+            padding: 25px 16px 31px 32px;
+		}
+
+		// .contacts__info-phone
+        &__info-data-descr{
+            display: flex;
+            align-items: center;
+            & img{
+                margin-right: 23px;
+            }
+            & a{
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 46px;
+                /* or 219% */
+                
+                letter-spacing: -0.01em;
+                
+                color: #907A5E;
+            }
+        }
+		&__info-phone {
+            
+		}
+
+		// .contacts__info-mail
+
+		&__info-mail {
+		}
+
+		// .contacts__info-btn-wrapper
+
+		&__info-btn-wrapper {
+            margin-top: 14px;
+            display: flex;
+            justify-content: center;
+		}
+
+		// .contacts__info-btn
+
+		&__info-btn {
+            display: inline-block;
+            padding: 10px 38px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: -0.01em;
+            background: #907A5E;
+            border-radius: 16px;
+            color: #FFFFFF;
+            transition: all 0.3s;
+            &:hover{
+                background: #6d5c46;
+            }
+		}
+
+		// .contacts__map
+
+		&__map {
+            & iframe{
+                border: 1px solid #AFAFAF;
+                border-radius: 0 20px 20px 0;
+                width: 651px;
+                height: 598px;
+            }
+		}
+}
+
+}

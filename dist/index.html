@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой шаблон</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Orbitron:wght@500&family=Reenie+Beanie&family=Roboto&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="main__body">
+  <header class="header">
+    <!-- Navbar -->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="index.html"> <img src="img/logo.svg" alt=""> </a> </div>
+          <div class="header__search">
+            
+              <input class="header__search__input" placeholder="Федор Бондарчук" type="search">
+              <button class="header__search__btn">Поиск</button>
+            
+          </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="index.html">Главная</a></li>
+              <li class="menu__list-item"><a href="news.html">Новости</a></li>
+              <li class="menu__list-item has-child">
+                <a href="actors.html">Клиенты агенства</a>
+                <ul class="dropdown-menu">
+                  <li><a href="">Актеры</a></li>
+                  <li><a href="">Сценаристы</a></li>
+                  <li><a href="">Операторы</a></li>
+                  <li><a href="">Писатели</a></li>
+                  <li><a href="">Режиссёры</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="page-projects.html">Проекты</a></li>
+              <li class="menu__list-item"><a href="page-about.html">О нас</a></li>
+              <li class="menu__list-item"><a href="page-contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="mobile__menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="index.html">Главная</a></li>
+              <li class="menu__list-item"><a href="news.html">Новости</a></li>
+              <li class="menu__list-item has-child">
+                <a href="actors.html">Клиенты агенства</a>
+                <ul class="dropdown-menu">
+                  <li><a href="">Актеры</a></li>
+                  <li><a href="">Сценаристы</a></li>
+                  <li><a href="">Операторы</a></li>
+                  <li><a href="">Писатели</a></li>
+                  <li><a href="">Режиссёры</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="page-projects.html">Проекты</a></li>
+              <li class="menu__list-item"><a href="page-about.html">О нас</a></li>
+              <li class="menu__list-item"><a href="page-contacts.html">Контакты</a></li>
+            </ul>
+            <div class="header__search">
+            
+              <input class="header__search__input" placeholder="Федор Бондарчук" type="search">
+              <button class="header__search__btn">Поиск</button>
+            
+            </div>
+            <div class="header__social__list">
+              <div class="header__social__item">
+                <a href="#"><img src="img/header-social-img.svg" alt=""></a>
+                <a href="#"><img src="img/header-social-vk.svg" alt=""></a>
+                <a href="#"><img src="img/header-social-tg.svg" alt=""></a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="header__social__list">
+            <div class="header__social__item">
+              <a href="#"><img src="img/header-social-img.svg" alt=""></a>
+              <a href="#"><img src="img/header-social-vk.svg" alt=""></a>
+              <a href="#"><img src="img/header-social-tg.svg" alt=""></a>
+            </div>
+          </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section class="video-box intro">
+    <iframe src="https://www.youtube.com/embed/4dHuEKi6c7s?&loop=1&playlist=4dHuEKi6c7s&mute=1&autoplay=1" frameborder="0" allow="autoplay"></iframe>
+    
+    <div class="container">
+      <div class="intro__inner">
+        <div class="intro__info">
+          <h1 class="intro__title primary-title"><span>Агентство</span> ТАЛАНТОВ</h1>
+          <p class="intro__descr">Сценаристы Режиссеры Актеры Операторы Писатели</p>
+        </div>
+        <div class="talents__items__wrapper">
+          <div class="intro__talents__items talents__swiper swiper">
+            <div class="intro__talents__line swiper-wrapper intro__talents__line-1">
+              <div style="background-image: url('img/talents-1.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Федор Дунаевский</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+              <div style="background-image: url('img/talents-2.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Александр Назаров</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+              <div style="background-image: url('img/talents-3.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Ольга Павловец</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+              <div style="background-image: url('img/talents-4.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Кузьма Стомаченко</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+              <div style="background-image: url('img/talents-9.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Ашот Абраамян</h2>
+                <p class="talents__item__profession">Сценарист</p>
+              </div>
+              <div style="background-image: url('img/talents-10.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Денис Артамонов</h2>
+                <p class="talents__item__profession">Сценарист</p>
+              </div>
+            </div>
+          </div>
+          <div class="intro__talents__items-2 swiper talents__swiper-2">
+            <div class="swiper-wrapper intro__talents__line intro__talents__line-2">
+              <div style="background-image: url('img/talents-5.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Ксения Копылова</h2>
+                <p class="talents__item__profession">Актер Size plus</p>
+              </div>
+              <div style="background-image: url('img/talents-6.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Павел Чернышов</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+              <div style="background-image: url('img/talents-7.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Мила Исаева</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+              <div style="background-image: url('img/talents-8.jpg');" class="swiper-slide intro__talents__item talents__item">
+                <h2 class="talents__item__name">Долорес Партилья Сумин</h2>
+                <p class="talents__item__profession">Актер</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__img">
+          <img src="img/about-img.png" alt="">
+        </div>
+        <div class="about__info">
+          <div class="about__info-header">
+            <div class="about__info-header-img">
+              <img src="img/about-header-img.png" alt="">
+            </div>
+            <div class="about__info-header-btn-wrapper">
+              <button class="primary-btn about__info-header-btn">Узнать подробнее</button>
+            </div>
+          </div>
+          <div class="about__info-descr">
+            <p>Уникальный проект «Агентства Стардаст», цель которого помочь самому широкому кругу авторов в реализации своих сценарных проектов. StoryMarket представляет собой онлайн-платформу с целым набором инструментов, с помощью которых автор может получить профессиональную экспертную оценку своей истории и возможность презентовать её продюсерам, а впоследствии найти заказчика.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <div class="clients__inner">
+        <div class="clients__info">
+          <!-- <div class="clients__info-particles">
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+            <div class="clients__info-particles-item"></div>
+          </div> -->
+          <div class="clients__info-item">
+            <div class="clients__info-item-img">
+              <img src="img/clients-professionals-img.svg" alt="">
+            </div>
+            <div class="clients__info-item-professionals professionals">
+              <h3 class="professionals-title">Более 300</h3>
+              <p class="professionals-descr">профессионалов своего дела</p>
+              <div class="professionals__items">
+                <div class="professionals__item">
+                  <img src="img/professionals-1.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-2.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-3.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-4.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <p>379+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clients__items-wrapper">
+          <h2 class="clients__title">Наши клиенты</h2>
+          <div class="clients__items">
+            <!-- <div class="clients__item">
+              <div class="clients__item-img">
+                <img src="img/clients-icon-1.svg" alt="">
+              </div>
+              <h3 class="clients__item-title">Сценаристы</h3>
+              <p class="clients__item-descr">Только настоящие профессионалы</p>
+            </div> -->
+            <div class="clients__info-item-professionals professionals clients__item">
+              <h3 class="professionals-title">Более 200</h3>
+              <p class="professionals-descr">лучших сценаристов России </p>
+              <div class="professionals__items">
+                <div class="professionals__item">
+                  <img src="img/professionals-1.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-2.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-3.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-4.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <p>379+</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="clients__item">
+              <div class="clients__item-img">
+                <img src="img/clients-icon-2.svg" alt="">
+              </div>
+              <h3 class="clients__item-title">Актеры</h3>
+              <p class="clients__item-descr">Только настоящие профессионалы</p>
+            </div> -->
+            <div class="clients__info-item-professionals professionals clients__item">
+              <h3 class="professionals-title">Более 50</h3>
+              <p class="professionals-descr">лучших актеров России</p>
+              <div class="professionals__items">
+                <div class="professionals__item">
+                  <img src="img/professionals-1.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-2.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-3.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-4.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <p>379+</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="clients__item">
+              <div class="clients__item-img">
+                <img src="img/clients-icon-3.svg" alt="">
+              </div>
+              <h3 class="clients__item-title">Режиссеры</h3>
+              <p class="clients__item-descr">Только настоящие профессионалы</p>
+            </div> -->
+            <!-- <div class="clients__item">
+              <div class="clients__item-img">
+                <img src="img/clients-icon-4.svg" alt="">
+              </div>
+              <h3 class="clients__item-title">Операторы</h3>
+              <p class="clients__item-descr">Только настоящие профессионалы</p>
+            </div>
+            <div class="clients__item">
+              <div class="clients__item-img">
+                <img src="img/clients-icon-5.svg" alt="">
+              </div>
+              <h3 class="clients__item-title">Писатели</h3>
+              <p class="clients__item-descr">Только настоящие профессионалы</p>
+            </div> -->
+            <div class="clients__info-item-professionals professionals clients__item">
+              <h3 class="professionals-title">Более 20</h3>
+              <p class="professionals-descr">лучших операторов</p>
+              <div class="professionals__items">
+                <div class="professionals__item">
+                  <img src="img/professionals-1.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-2.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-3.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-4.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <p>379+</p>
+                </div>
+              </div>
+            </div>
+            <div class="clients__info-item-professionals professionals clients__item">
+              <h3 class="professionals-title">Более 50</h3>
+              <p class="professionals-descr">лучших режиссеров России </p>
+              <div class="professionals__items">
+                <div class="professionals__item">
+                  <img src="img/professionals-1.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-2.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-3.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <img src="img/professionals-4.jpg" alt="">
+                </div>
+                <div class="professionals__item">
+                  <p>379+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects">
+    <div class="container">
+      <div class="projects__inner">
+        <div class="projects__info">
+          <div class="projects__info-img_camera">
+            <img src="img/bi_camera-reels.svg" alt="">
+          </div>
+          <div class="projects__info-img_particles">
+            <img src="img/projects-particles.svg" alt="">
+          </div>
+          <div class="projects__info-img">
+            <img src="img/projects-logo.png" alt="">
+          </div>
+          <h2 class="projects__info-title">ПРОЕКТЫ stardust</h2>
+          <p class="projects__info-descr">Познакомьтесь с проектами, с которыми мы работали</p>
+        </div>
+        <div class="projects__items projects__items-wrapper">
+          <div class="projects__items-line-1 swiper">
+            <div class="projects__items-swiper-wrapper swiper-wrapper">
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-1.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-2.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-3.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="projects__items-line-2 swiper">
+            <div class="projects__items-swiper-wrapper swiper-wrapper">
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-5.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-6.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-7.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-8.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="projects__items-line-3 swiper">
+            <div class="projects__items-swiper-wrapper swiper-wrapper">
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-9.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-10.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-11.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-12.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__items projects__items-wrapper-mobile">
+          <div class="projects__items-line-4 swiper">
+            <div class="projects__items-swiper-wrapper swiper-wrapper">
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-1.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-2.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-3.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="projects__items-line-5 swiper">
+            <div class="projects__items-swiper-wrapper swiper-wrapper">
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-5.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-6.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-7.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-8.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="projects__items-line-6 swiper">
+            <div class="projects__items-swiper-wrapper swiper-wrapper">
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-9.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-10.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-11.jpg" alt="">
+              </div>
+              <div class="swiper-slide projects__item">
+                <img src="img/projects-items-12.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="container">
+      <div class="news__inner">
+        <h2 class="news__title">Новости stardust</h2>
+        <div class="news__items">
+          <article style="background-image: url('img/news-item-1.jpg');" class="news__item news__item_big">
+            <a class="news__item-title-link" href=""><h3 class="news__item-title">Фильм «Непослушник» режиссера Агентства StarDust завоевал 3 награды из 5 на фестивале «Виват кино России!»</h3></a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+              <a href=""><img src="img/news-item-2.jpg" alt=""></a>
+            </div>
+            <a href=""><h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3></a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+              <a href="">
+                <img src="img/news-item-3.jpg" alt="">
+              </a>
+            </div>
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Татьяна Беличенко выступила автором одной из колонок на сайте газеты Известия</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+                <a class="news__item-title-link" href="">
+                  <img src="img/news-item-2.jpg" alt="">
+                </a>
+              </div>
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article class="news__item">
+            <div class="news__item-img">
+                <a href="">
+                  <img src="img/news-item-4.jpg" alt="">
+                </a>
+              </div>
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Татьяна Беличенко стала гостем программы Давида Шнейдерова «Синемания»</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-5.jpg');" class="news__item news__item_big">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Татьяна Беличенко стала гостем программы Давида Шнейдерова «Синемания»</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-6.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-7.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-8.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+          <article style="background-image: url('img/news-item-9.jpg');" class="news__item-last-line news__item">
+            <a class="news__item-title-link" href="">
+              <h3 class="news__item-title">Премьера драмы «Топор 1944» сценариста Агентства “StarDust” Дмитрия Новоселова.</h3>
+            </a>
+            <div class="news__item-date"><img src="img/time.svg" alt=""><p>15.09.2022</p></div>
+          </article>
+        </div>
+        <div class="news__btn-more">
+          <button>Загрузить ещё</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__columns">
+          <div class="footer__col footer__col-about">
+            <div class="footer__col-about-logo">
+              <img src="img/footer-logo.png" alt="">
+            </div>
+            <h3 class="footer__col-about-title">«Агентство Стардаст» </h3>
+            <p class="footer__col-about-descr">Работает в киноиндустрии с 2007 года и является уникальной компанией в российском киносообществе.</p>
+          </div>
+          <div class="footer__col-company footer__col">
+            <h2 class="footer__col-title">Компания</h2>
+            <ul class="footer__company-list footer__col-list">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Проекты</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Как нас найти</a></li>
+            </ul>
+          </div>
+          <div class="footer__col-clients footer__col">
+            <h2 class="footer__col-title">Клиенты</h2>
+            <ul class="footer__clients-list footer__col-list">
+              <li><a href="#">Сценаристы</a></li>
+              <li><a href="#">Режиссеры</a></li>
+              <li><a href="#">Актеры</a></li>
+              <li><a href="#">Операторы</a></li>
+              <li><a href="#">Писатели</a></li>
+            </ul>
+          </div>
+          <div class="footer__col-contacts footer__col">
+            <h2 class="footer__col-title">Контакты</h2>
+            <ul class="footer__contacts-list footer__col-list">
+              <li><a href="tel:+79933699439"><img src="img/footer-cal.svg" alt="">+7 (993) 369-94-39</a></li>
+              <li><a class="footer__col-list-mail" href="mailto:info@stardust-agency.ru"><img src="img/footer-mail.svg" alt="">info@stardust-agency.ru</a></li>
+              <li><a href="#"><img src="img/footer-geo.svg" alt="">119072, г. Москва, БЦ «Красный Октябрь», Берсеневская набережная, д. 8, стр. 1</a></li>
+              <li><a href="#"><img src="img/footer-user-legacy.svg" alt="">Пользовательское соглашение с агентами</a></li>
+              <li><a href="#"><img src="img/footer-consert.svg" alt="">Согласие на обработку персональных данных</a></li>
+              <li><a href="#"><img src="img/footer-data-legacy.svg" alt="">Положение о персональных данных</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>Copyright ООО Агенство Стардаст 2022 Все права защищены.</p>
+          <span>Полное или частичное копирование материалов запрещено.
+            Использование материалов сайта возможно только с письменного согласования правообладателей.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Библиотеки, скрипты из CDN... -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- Cкрипты (удалить все, кроме scripts.min.js перед билдом) -->
+  <script src="./js/sliders.js"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/main.js"></script>
+
+  
+</body>
+</html>

@@ -1,0 +1,366 @@
+.page-single-actors{
+    .start .primary-title{
+        padding-left: 75px;
+    }
+    .single-actors {
+        padding-top: 96px;
+        // .single-actors__inner
+    
+        &__inner {
+            padding-left: 130px;
+        }
+    
+        // .single-actors__info
+    
+        &__info {
+            display: flex;
+            align-items: flex-end;
+        }
+    
+        // .single-actors__img
+    
+        &__img {
+            margin-right: 75px;
+            width: 567px;
+            height: 892px;
+            z-index: 2;
+            & img{
+                border: 1px solid #C9C9C9;
+                border-radius: 5px;
+                width: 100%;
+                height: 100%;
+            }
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                background: #CBA170;
+                filter: blur(85.5px);
+                transform: rotate(39.46deg);
+                width: 100%;
+                height: 100%;
+                border-radius: 30%;
+                z-index: -1;
+            }
+            &-particles{
+                position: absolute;
+                background: #181818;
+                border-radius: 50%;
+                transition: all 3s;
+                box-shadow: 0px 0px 17px rgba(22, 22, 22, 0.78), 0px 0px 17px rgba(7, 7, 7, 0.78);
+                &:nth-child(1){
+                    bottom: 22%;
+                    left: -12%;
+                    width: 10px;
+                    height: 10px;
+                }
+                &:nth-child(2){
+                    bottom: 6%;
+                    left: -22%;
+                    width: 5px;
+                    height: 5px;
+                }
+                &:nth-child(3){
+                    bottom: -4%;
+                    left: 12%;
+                    width: 10px;
+                    height: 10px;
+                }
+                &:nth-child(4){
+                    top: 34%;
+                    width: 10px;
+                    right: -8%;
+                    height: 10px;
+                }
+                &:nth-child(5){
+                    top: 18%;
+                    width: 5px;
+                    right: -15%;
+                    height: 5px;
+                }
+            }
+        }
+    
+        // .single-actors__data
+    
+        &__data {
+            z-index: 10;
+        }
+    
+        // .single-actors__name
+    
+        &__name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 60px;
+            line-height: 110.4%;
+            /* or 66px */
+            width: 50%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #282828;
+        }
+    
+        // .single-actors__age
+    
+        &__age {
+            margin-top: 36px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 110.4%;
+            /* or 26px */
+
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #282828;
+            & strong{
+                font-weight: 900;
+            }
+        }
+    
+        // .single-actors__height
+    
+        &__height {
+            margin-top: 15px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 110.4%;
+            /* or 26px */
+
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #282828;
+            & strong{
+                font-weight: 900;
+            }
+        }
+    
+        // .single-actors__socials
+    
+        &__socials {
+            display: flex;
+            margin-top: 55px;
+            align-items: flex-end;
+        }
+    
+        // .single-actors__sicial-item
+    
+        &__sicial-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 110.4%;
+            /* or 26px */
+            margin-right: 50px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #282828;
+            &:last-child{
+                margin-right: 0;
+            }
+            & img{
+                margin-bottom: 15px;
+            }
+
+        }
+    
+        // .single-actors__agent-btn
+    
+        &__agent-btn {
+            display: inline-block;
+            margin-top: 26px;
+
+        }
+    
+        // .single-actors__agent-items
+    
+        &__agent-items {
+            margin-top: 37px;
+            display: flex;
+            flex-direction: column;
+            & p, & a{
+                margin-bottom: 20px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 110.4%;
+                /* identical to box height, or 20px */
+
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                color: #282828;
+                & strong{
+                    font-weight: 900;
+                }
+            }
+        }
+    
+        // .single-actors__skills
+    
+        &__skills {
+            
+        }
+    
+        // .single-actors__roles
+    
+        &__roles {
+            background: #F8F8F8;
+            border: 1px solid #CDCDCD;
+            border-radius: 5px;
+            margin-top: 60px;
+            display: flex;
+            padding: 50px 0 50px 41px;
+        }
+    
+        // .single-actors__role
+    
+        &__role {
+            margin-right: 32px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    
+        // .single-actors__title
+    
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 110.4%;
+            /* or 18px */
+
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #907A5E;
+
+        }
+    
+        // .single-actors__role-item
+    
+        &__role-item {
+            margin-top: 15px;
+            
+            & p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 110.4%;
+                /* or 18px */
+
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                color: #282828;
+                & strong{
+                    font-weight: 900;
+                }
+            }
+        }
+    
+        // .single-actors__images
+    
+        &__images {
+            margin-top: 84px;
+        }
+    
+        // .single-actors__images-wrapper
+    
+        &__images-wrapper {
+            transition-timing-function: linear;
+        }
+    
+        // .single-actors__images-item
+    
+        &__images-item {
+            width: auto !important;
+            height: auto !important;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .skills-items {
+        background: #F8F8F8;
+        border: 1px solid #CDCDCD;
+        border-radius: 5px;
+        padding: 14px 15px 15px 30px;
+        display: flex;
+        // .skills-items__education
+    
+        &__education {
+            margin-right: 60px;
+        }
+    
+        // .skills-items__title
+    
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 15px;
+            line-height: 110.4%;
+            /* or 17px */
+
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #000000;
+        }
+    
+        // .skills-items__list
+    
+        &__list {
+            & p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 110.4%;
+                /* or 17px */
+
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                color: #000000;
+
+            }
+        }
+    
+        // .skills-items__img
+    
+        &__img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 48px;
+        }
+    
+        // .skills-items__competency
+    
+        &__competency {
+        }
+    }
+    
+}

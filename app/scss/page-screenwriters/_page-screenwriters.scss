@@ -1,0 +1,95 @@
+.page-screenwriters{
+    .start .primary-title{
+        padding-left: 80px;
+    }
+    .screenwriters {
+        padding-top: 56px;
+        // .screenwriters__inner
+    
+        &__inner {
+            padding-left: 165px;
+        }
+    
+        // .screenwriters__items
+    
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    
+        // .screenwriters__item
+    
+        &__item {
+            margin-right: 70px;
+            margin-bottom: 58px;
+            padding: 5px;
+            cursor: pointer;
+            transition: all .3s;
+            &:hover{
+                box-shadow: 0 5px 15px #907A5E;
+                border-radius: 5px;
+            }
+            // &:nth-child(3n){
+            //     margin-right: 0;
+            // }
+        }
+    
+        // .screenwriters__item-tag
+    
+        &__item-tag {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height, or 105% */
+    
+    
+            color: #907A5E;
+            &.new{
+                padding: 5px 8px 5px 3px;
+                background-image: url('../../img/new-tag.svg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    
+        // .screenwriters__item-title
+    
+        &__item-title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 110.4%;
+            /* or 23px */
+            margin-top: 4px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+    
+            color: #282828;
+            & span{
+                text-transform: uppercase;
+            }
+        }
+    
+        // .screenwriters__item-specialization
+    
+        &__item-specialization {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 82.4%;
+            /* or 12px */
+    
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 11px;
+            color: #282828;
+    
+        }
+    }
+}
