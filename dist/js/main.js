@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded",()=>{
         var $box = $('.video-box');
         var height = $box.height();
         var width = $box.width();
+<<<<<<< HEAD
         console.log(height)
+=======
+>>>>>>> 1609f2a (fixed bugs)
         var new_height = width / 1.78;
         if (new_height > height) {
             $box.find('iframe').css({

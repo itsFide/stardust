@@ -3,7 +3,11 @@ const swiper = new Swiper('.talents__swiper', {
     // Optional parameters
     loop: true,
     speed: 4000,
+<<<<<<< HEAD
     slidesPerView:3,
+=======
+    slidesPerView:2.5,
+>>>>>>> 1609f2a (fixed bugs)
     allowTouchMove:false,
     direction: "vertical",
     autoplay: {
@@ -38,7 +42,11 @@ const swiper = new Swiper('.talents__swiper', {
         // Optional parameters
         loop: true,
         speed: 4000,
+<<<<<<< HEAD
         slidesPerView:3,
+=======
+        slidesPerView:2.5,
+>>>>>>> 1609f2a (fixed bugs)
         allowTouchMove:false,
         direction: "vertical",
         autoplay: {
