@@ -143,10 +143,7 @@
             border-radius: 100%;
             background: #D9E0FA;
         }
-<<<<<<< HEAD
-=======
         
->>>>>>> 1609f2a (fixed bugs)
     }
 
     // .clients__info-item-img
@@ -199,16 +196,10 @@
 
     &__item {
         width: 269px;
-<<<<<<< HEAD
-        &:not(:last-child){
-            margin-bottom: 27px;
-        }
-=======
         // &:not(:last-child){
         //     margin-bottom: 27px;
         // }
         margin-bottom: 27px;
->>>>>>> 1609f2a (fixed bugs)
     }
 
     // .clients__item-img
@@ -262,15 +253,11 @@
     bottom: -22%;
     transform: translate(-50%,0);
     // .professionals__items
-<<<<<<< HEAD
-
-=======
     &.clients__item{
         position: static !important;
         transform: translate(0);
         
     }
->>>>>>> 1609f2a (fixed bugs)
     &__items {
         margin-top: 18px;
         display: flex;
@@ -324,11 +311,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-<<<<<<< HEAD
-    width: 50%;
-=======
     // width: 50%;
->>>>>>> 1609f2a (fixed bugs)
     margin: 0 auto;
     color: #CDCDCD;
 

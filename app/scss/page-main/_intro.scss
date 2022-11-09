@@ -4,11 +4,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-<<<<<<< HEAD
-        background: linear-gradient(180deg, rgba(32, 32, 32, 0.44) 0%, rgba(32, 32, 32, 0.12) 45.56%, #202020 96.8%);
-=======
         background: linear-gradient(180deg, rgba(32, 32, 32, 0.2) 0%, rgba(32, 32, 32, 0.2) 45.56%, #2020208f 141.8%);
->>>>>>> 1609f2a (fixed bugs)
         z-index: 2;
         left: 0;
         bottom: 0;
@@ -35,11 +31,7 @@
 
     &__inner {
         position: relative;
-<<<<<<< HEAD
-        padding-top: 625px;
-=======
         padding-top: 225px;
->>>>>>> 1609f2a (fixed bugs)
         padding-bottom: 134px;
     }
 
@@ -66,22 +58,14 @@
         position: absolute;
         display: flex;
         right: 29%;
-<<<<<<< HEAD
-        top: -10%;
-=======
         top: -13%;
->>>>>>> 1609f2a (fixed bugs)
         transform: matrix(0.94, -0.34, 0.34, 0.94, 0, 0);
     }
     &__talents__items-2 {
         position: absolute;
         display: flex;
         right: 6%;
-<<<<<<< HEAD
-        top: -10%;
-=======
         top: -13%;
->>>>>>> 1609f2a (fixed bugs)
         transform: matrix(0.94, -0.34, 0.34, 0.94, 0, 0);
     }
     &__talents__line:first-child{
@@ -101,17 +85,10 @@
 
 .talents {
     &__swiper{
-<<<<<<< HEAD
-        height: 120%;
-    }
-    &__swiper-2{
-        height: 120%;
-=======
         height: 140%;
     }
     &__swiper-2{
         height: 140%;
->>>>>>> 1609f2a (fixed bugs)
     }
     // .talents__items
 
@@ -126,12 +103,8 @@
         background-repeat: no-repeat;
         background-position: center;
         width: 262px;
-<<<<<<< HEAD
-        height: 353px !important;
-=======
         // height: 353px !important;
         height: 100%;
->>>>>>> 1609f2a (fixed bugs)
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
