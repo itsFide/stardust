@@ -229,3 +229,93 @@ const swiper = new Swiper('.talents__swiper', {
             }
           }
     });
+    const news1 = new Swiper('.news__items-line-1', {
+      // Optional parameters
+      loop: true,
+      speed: 5000,
+      slidesPerView:4,
+      spaceBetween: 25,
+      allowTouchMove:true,
+      autoplay: {
+          reverseDirection: false,
+          delay: 0,
+      },
+      loopedSlides: 4,
+      breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1.5,
+          },
+          690:{
+            slidesPerView: 2,
+          },
+          // when window width is >= 640px
+          991: {
+            slidesPerView: 2,
+          },
+          1075:{
+            slidesPerView: 3,
+          }
+        }
+    });
+    const news2 = new Swiper('.news__items-line-2', {
+      // Optional parameters
+      loop: true,
+      speed: 5000,
+      slidesPerView:4,
+      spaceBetween: 25,
+      allowTouchMove:true,
+      autoplay: {
+          reverseDirection: true,
+          delay: 0,
+      },
+      loopedSlides: 4,
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 1.5,
+        },
+        690:{
+          slidesPerView: 2,
+        },
+        // when window width is >= 640px
+        991: {
+          slidesPerView: 2,
+        },
+        1075:{
+          slidesPerView: 3,
+        }
+      }
+    });
+    // const news3 = new Swiper('.news__items-line-3', {
+    //   // Optional parameters
+    //   loop: true,
+    //   speed: 5000,
+    //   // direction: 'vertical',
+    //   slidesPerView:1.5,
+    //   spaceBetween: 25,
+    //   allowTouchMove:true,
+    //   autoplay: {
+    //       reverseDirection: true,
+    //       delay: 0,
+    //   },
+    //   loopedSlides: 4,
+    //   breakpoints: {
+    //       // when window width is >= 320px
+    //       320: {
+    //         slidesPerView: 1.5,
+    //       },
+    //       // when window width is >= 480px
+    //       690:{
+    //         slidesPerView: 2,
+    //       }
+    //     }
+    // });
