@@ -21,6 +21,10 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            border: none;
+            // &::before{
+            //     display: none;
+            // }
             &-last-line{
                 display: flex;
                 flex-direction: column;
@@ -64,9 +68,22 @@
             }
             &-title{
                 margin-left: 0;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                /* or 129% */
+
+                letter-spacing: -0.01em;
+
+                color: #393939;
             }
             &-date{
                 margin-left: 0;
+                & p{
+                    color: #393939;
+                }
             }
             &:hover{
                 box-shadow: 0 10px 30px #907A5E;

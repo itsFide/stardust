@@ -232,7 +232,7 @@ const swiper = new Swiper('.talents__swiper', {
     const news1 = new Swiper('.news__items-line-1', {
       // Optional parameters
       loop: true,
-      speed: 5000,
+      speed: 6000,
       slidesPerView:4,
       spaceBetween: 25,
       allowTouchMove:true,
@@ -258,14 +258,14 @@ const swiper = new Swiper('.talents__swiper', {
             slidesPerView: 2,
           },
           1075:{
-            slidesPerView: 3,
+            slidesPerView: 3.5,
           }
         }
     });
     const news2 = new Swiper('.news__items-line-2', {
       // Optional parameters
       loop: true,
-      speed: 5000,
+      speed: 6000,
       slidesPerView:4,
       spaceBetween: 25,
       allowTouchMove:true,
@@ -291,7 +291,7 @@ const swiper = new Swiper('.talents__swiper', {
           slidesPerView: 2,
         },
         1075:{
-          slidesPerView: 3,
+          slidesPerView: 3.5,
         }
       }
     });
