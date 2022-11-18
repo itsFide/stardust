@@ -42,8 +42,8 @@ $(function() {
                 x++;
                 if (x == particlesItem.length) x = 0;
                 particlesItem.forEach((e)=>{
-                    let rand1 = Math.floor(Math.random() * 1000)
-                let rand2 = Math.floor(Math.random() * 1000)
+                    let rand1 = Math.floor(Math.random() * 100)
+                let rand2 = Math.floor(Math.random() * 100)
                 e.style.transform = `translate(${rand1}%,${rand2}%)`;
                 })
                 
