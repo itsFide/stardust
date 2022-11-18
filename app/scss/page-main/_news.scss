@@ -203,6 +203,8 @@
         display: flex;
         justify-content: center;
         margin-top: 72px;
+        position: relative;
+        z-index: 10;
         & button{
             font-family: 'Montserrat';
             font-style: normal;
