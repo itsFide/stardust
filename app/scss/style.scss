@@ -103,6 +103,9 @@ h1, h2, h3, h4, h5, h6, p {
 	// nav .navbar{
 	// 	flex-direction: column;
 	// }
+	.intro__inner{
+		padding-top: 125px;
+	}
 	.header__search{
 		margin-left: 0;
 		
@@ -127,10 +130,12 @@ h1, h2, h3, h4, h5, h6, p {
 		margin-left: 15px;
 	}
 	.intro__talents__items{
+		top: -15%;
 		right: 32%;
 	}
 	.intro__talents__items-2{
 		right: 0%;
+		top: -15%;
 	}
 	.about .container{
 		max-width: 90%;
@@ -346,7 +351,13 @@ h1, h2, h3, h4, h5, h6, p {
 		margin-top: 15px;
 	}
 	.intro__inner{
-		padding-top: 325px;
+		padding-top: 125px;
+	}
+	.intro__talents__items-2{
+		top: -16%;
+	}
+	.intro__talents__items{
+		top: -16%;
 	}
 	.about__img{
 		display: none;
@@ -516,7 +527,8 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 
 	.intro__inner{
-		padding-top: 225px;
+		padding-top: 125px;
+		padding-bottom: 100px;
 	}
 	.intro__talents__items{
 		right: 38%;

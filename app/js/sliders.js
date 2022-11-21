@@ -169,6 +169,12 @@ const swiper = new Swiper('.talents__swiper', {
             480: {
               slidesPerView: 2,
             },
+            630: {
+              slidesPerView: 2.5,
+            },
+            750: {
+              slidesPerView: 3,
+            },
             // when window width is >= 640px
             991: {
               slidesPerView: 3,
@@ -196,6 +202,12 @@ const swiper = new Swiper('.talents__swiper', {
             480: {
               slidesPerView: 2,
             },
+            630: {
+              slidesPerView: 2.5,
+            },
+            750: {
+              slidesPerView: 3,
+            },
             // when window width is >= 640px
             991: {
               slidesPerView: 3,
@@ -222,6 +234,12 @@ const swiper = new Swiper('.talents__swiper', {
             // when window width is >= 480px
             480: {
               slidesPerView: 2,
+            },
+            630: {
+              slidesPerView: 2.5,
+            },
+            750: {
+              slidesPerView: 3,
             },
             // when window width is >= 640px
             991: {
