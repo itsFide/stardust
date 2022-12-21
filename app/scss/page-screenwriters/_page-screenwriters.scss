@@ -2,12 +2,16 @@
     .start .primary-title{
         padding-left: 80px;
     }
+    .start__descr{
+        padding-left: 80px;
+    }
     .screenwriters {
         padding-top: 56px;
+        padding-bottom: 40px;
         // .screenwriters__inner
     
         &__inner {
-            padding-left: 165px;
+            // padding-left: 165px;
             position: relative;
             // &::before{
             //     content: url('../../img/screenwriters-icon-1.svg');
@@ -42,15 +46,18 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            justify-content: space-between;
         }
     
         // .screenwriters__item
     
         &__item {
-            margin-right: 70px;
-            margin-bottom: 58px;
+            // margin-right: 98px;
+            margin-bottom: 13px;
             padding: 5px;
             cursor: pointer;
+            position: relative;
+            z-index: 100;
             transition: all .3s;
             &:hover{
                 box-shadow: 0 5px 15px #907A5E;
@@ -88,16 +95,18 @@
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 600;
-            font-size: 21px;
+            font-size: 38px;
             line-height: 110.4%;
-            /* or 23px */
-            margin-top: 4px;
+            /* identical to box height, or 42px */
+
             letter-spacing: 0.05em;
             text-transform: capitalize;
-    
+
             color: #282828;
+
             & span{
-                text-transform: uppercase;
+                // text-transform: uppercase;
+                font-weight: 900;
             }
         }
     
@@ -107,13 +116,13 @@
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 300;
-            font-size: 15px;
+            font-size: 25px;
             line-height: 82.4%;
             /* or 12px */
     
             letter-spacing: 0.05em;
             text-transform: uppercase;
-            margin-top: 11px;
+            // margin-top: 11px;
             color: #282828;
     
         }
